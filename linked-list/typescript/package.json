@@ -1,0 +1,20 @@
+{
+  "name": "linked-list-typescript",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Linked List TypeScript",
+  "keywords": [
+    "linked list",
+    "typescript"
+  ],
+  "license": "MIT",
+  "author": "Yan Kuang",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YTKme/code-sandbox.git"
+  },
+  "scripts": {},
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
