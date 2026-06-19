@@ -10,11 +10,12 @@
     "lib": [
       "DOM",
       "DOM.Iterable",
-      "ES2024"
+      "ES2025"
     ],
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
     "strict": true,
+    "moduleResolution": "bundler",
     "verbatimModuleSyntax": true,
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
