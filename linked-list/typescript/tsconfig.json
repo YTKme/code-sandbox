@@ -1,8 +1,4 @@
 {
-  "include": [
-    "**/*.ts",
-    "**/*.tsx"
-  ],
   "compilerOptions": {
     "target": "es2025",
     "module": "esnext",
@@ -12,15 +8,20 @@
       "DOM.Iterable",
       "ES2025"
     ],
-    "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
     "strict": true,
     "moduleResolution": "bundler",
     "verbatimModuleSyntax": true,
-    "isolatedModules": true,
-    "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
-    "skipLibCheck": true,
-    "noEmit": true
-  }
+    "noEmit": true,
+    "isolatedModules": true,
+    "noUncheckedIndexedAccess": true,
+    "noUncheckedSideEffectImports": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": ["node_modules"]
 }
